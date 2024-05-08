@@ -1,0 +1,61 @@
+section#contacto{
+    position: relative;
+    margin: auto;
+    height: 299px;
+    width: 1000px;
+    background: white;
+}
+section#contacto form{
+    position: relative;
+    margin: auto;
+    top: 32px;
+    width:910px;
+    height: 232px;
+}
+section#contacto form input#nombre{
+    position: absolute;
+    padding: 10px;
+    width:272px;
+    height: 45px;
+    background: #dce9d7;
+    border: 0;
+}
+section#contacto form input#email{
+    position: absolute;
+    top: 81px;
+    padding: 10px;
+    width:272px;
+    height: 45px;
+    background: #dce9d7;
+    border: 0;
+}
+section#contacto form input#asunto{
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    width:272px;
+    height: 45px;
+    background: #dce9d7;
+    border: 0;
+}
+section#contacto form #mensaje{
+    position: absolute;
+    right: 0;
+    padding: 10px;
+    width:581px;
+    height: 128px;
+    background: #dce9d7;
+    border: 0;
+}
+section#contacto form #enviar {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 10px;
+    width: 606px;
+    height: 69px;
+    background: #1a1d20;
+    border: 0;
+    color: white;
+    text-transform: uppercase;
+}

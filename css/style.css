@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+body{
+    background: url('../assets/img/background.jpg');
+    background-repeat: repeat;
+}
+
+/* ------ 2. HEADER CLASS ------*/
+header{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 83px;
+    background: url('../assets/img/cabezote.jpg');
+    background-size: cover;
+}
+#logotipo{
+    position: absolute;
+    width: 188px;
+    height: 47px; 
+    top: 17px;
+    left: 15px;
+    
+}
+/* ----------- 2. <<END>> HEADER PRINCIPAL CLASS -----------*/
+
+
+/* ------ 2. NAVEGACION CLASS ------*/
+nav{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 45px;
+    border-bottom: 1px solid #bcd1cb;
+    background: url('../assets/img/nav.jpg');
+}
+nav ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 45px;
+}
+nav ul li{
+    float: left;
+    width: 124px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    text-transform: capitalize;
+    border-right: 1px solid #bcd1cb;
+}
+
+/* ----------- 2. <<END>> NAVEGACION CLASS -----------*/
+
+
+
+/* ------ 2. BTN SLIDE CLASS ------*/
+#btn_slide{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 26px;
+    background: url('../assets/img/backBotonesSlide.jpg');
+    
+}
+#btn_slide ul{
+    position: relative;
+    margin: auto;
+    width: 100px;
+    height: 26px;
+}
+#btn_slide ul li:first-child{
+    background: #232d8d;
+}
+#btn_slide ul li{
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 3px solid white;
+    background: #bcd1cb;
+    margin: 4px 2px;
+}
+
+
+#slide{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 301px;
+    background: url('../assets/img/slide.jpg') no-repeat;
+    background-size: cover;
+}
+
+/* ----------- 2. <<END>> BTN SLIDE CLASS -----------*/
+
+
+
+/* ------ 2. SECTION CLASS ------*/
+section#home{
+    position: relative;
+    margin: auto;
+    height: 299px;
+    width: 1000px;
+    background: white;
+}
+section#home ul li{
+    float: left;
+    width: 333px;
+    height: 299px;
+}
+section#home ul li h2{
+    margin: 24px 28px;
+    font-weight: 100;
+    font-size: 25px;
+}
+section#home ul li p{
+    margin: 23px 28px;
+    font-size: 15px;
+}
+section#home ul li img{
+    width: 270px;
+    height: 83px;
+    background: silver;
+    margin: 0px 32px;
+}
+
+/* ----------- 2. <<END>> SECTION CLASS -----------*/
+
+
+
+/* ------ 2. BOTTOM CLASS ------*/
+#bottom{
+    position: relative;
+    margin: auto;
+    height: 190px;
+    width: 1000px;
+    background: url('../assets/img/backBottom.jpg');
+}
+#bottom ul li{
+    float: left;
+    width: 250px;
+    height: 190px;
+}
+#bottom ul li h2{
+    margin: 13px 18px;
+    font-size: 18px;
+    font-weight: 100;
+    color: white;
+}
+#bottom ul li ol{
+    position: relative;
+    top: 15px;
+    left: 17px;
+    width: 190px;
+    height: 80px;
+}
+#bottom ul li ol li{
+    height: 20px;
+    text-align: left;
+    list-style: inside;
+    font-size: 15px;
+    color: white;
+    list-style-image: url('../assets/img/list.png');
+}
+#bottom ul li img {
+    position: relative;
+    top: 18px;
+    left: 17px;
+    width: 101px;
+    height: 100px;
+    border: 3px solid white;
+    background: cover;
+}
+#bottom ul li ul{
+    position: relative;
+    top: 15px;
+    left: 17px;
+    width: 200px;
+    height: 50px;
+    
+}
+#bottom ul li ul li{
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin: 5px;
+}
+#bottom ul li ul li:first-child{
+    background: url('../assets/img/facebook.jpg') no-repeat;
+    background-size: cover;
+}
+#bottom ul li ul li:nth-child(2){
+    background: url('../assets/img/iconoPinterest.jpg') no-repeat;
+    background-size: cover;
+}
+#bottom ul li ul li:nth-child(3){
+    background: url('../assets/img/iconoGoogle.jpg') no-repeat;
+    background-size: cover;
+}
+#bottom ul li ul li:last-child{
+    background: url('../assets/img/iconoTwitter.jpg') no-repeat;
+    background-size: cover;
+}
+
+
+/* ----------- 2. <<END>> BOTTOM CLASS -----------*/
+
+
+footer{
+    position: relative;
+    margin: auto;
+    height: 62px;
+    width: 1000px;
+    background: black;
+} 
+footer p{
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 1px;
+    color: white;
+}

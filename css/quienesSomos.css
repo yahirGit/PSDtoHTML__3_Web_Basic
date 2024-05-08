@@ -1,0 +1,35 @@
+section#quienesSomos{
+    position: relative;
+    margin: auto;
+    height: 299px;
+    width: 1000px;
+    background: white;
+}
+section#quienesSomos h2 {
+    position: relative;
+    text-transform: capitalize;
+    top: 10px;
+    left: 27px;
+    color: #1f1d21;
+    font-weight: 100;
+}
+section#quienesSomos hr {
+    position: relative;
+    width: 950px;
+    top: 10px;
+    margin: 0 auto;
+    background: #c6c6c6;
+}
+section#quienesSomos img {
+    float: left;
+    width: 272px;
+    margin: 20px 20px;
+}
+section#quienesSomos p {
+    position: relative;
+    top: 40px;
+    width: 950px;
+    margin: 0 auto;
+    color: #414042;
+    text-align: justify;
+}
